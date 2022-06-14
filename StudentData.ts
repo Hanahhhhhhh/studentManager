@@ -3,7 +3,7 @@ import {ScoreList} from "./ScoreList";
 export class StudentData {
     name : string;
     score: number;
-    next : any;
+    next : StudentData;
 
 
     constructor(name: string, score: number, next: any) {
